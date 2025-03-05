@@ -4,8 +4,8 @@
 #include<chrono>
 #include<algorithm>
 #include<iomanip>
-template <typename **ITER, typename **FUNC>
-void **generate(**ITER begin, **ITER end, **FUNC foo){
+template <typename __ITER, typename __FUNC>
+void __generate(__ITER begin, __ITER end, __FUNC foo){
     while(begin != end){
         *begin = foo();
         begin++;
